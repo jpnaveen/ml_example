@@ -10,7 +10,7 @@ from sklearn.preprocessing import LabelEncoder
 try:
     # dataset is taken from kagel
     #https://www.kaggle.com/datasets/yasserh/housing-prices-dataset?resource=download&select=Housing.csv
-    df = pd.read_csv('Housing.csv')
+    df = pd.read_csv('dataset/Housing.csv')
     print("Dataset loaded successfully.")
 except FileNotFoundError:
     print("Error: Housing.csv not found. Please download it from Kaggle.")
